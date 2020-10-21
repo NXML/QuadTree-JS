@@ -17,4 +17,10 @@ console.log("Node c: ")
 console.log(center.search(new Point(7, 6)).data)
 console.log("Non-existing node: ")
 console.log(center.search(new Point(5, 5)) )
+
+
+console.log("All Nodes ")
+console.log(center.searchArea(new Point(7, 7),new Point(8, 8),2))
+
+
   
